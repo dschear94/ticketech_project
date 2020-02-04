@@ -26,7 +26,7 @@
   },
   "version": "0.1.0",
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
-  "main": "index.js",
+  "main": "entry.jsx",
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -34,7 +34,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --mode=development --watch",
-    "postinstall": "webpack"
+    "postinstall": "webpack",
+    "build": "webpack -p --progress"
   },
   "repository": {
     "type": "git",

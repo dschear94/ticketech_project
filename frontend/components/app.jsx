@@ -3,12 +3,11 @@ import { Provider } from 'react-redux';
 import {
     Route,
 } from 'react-router-dom';
+import DashboardContainer from './dashboard/dashboard_container';
 
 const App = () => (
     <div >
-        <h1>
-            hi!
-        </h1>
+        <Route exact path="/"><DashboardContainer /></Route>
     </div>
 );
 
